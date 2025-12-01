@@ -1,0 +1,21 @@
+Python cache files
+
+pycache/
+*.py[cod]
+*$py.class
+
+Jupyter Notebook checkpoints
+
+.ipynb_checkpoints
+
+Virtual Environment folders
+
+venv/
+env/
+.env
+
+IDE settings (VS Code, etc)
+
+.vscode/
+.idea/
+.DS_Store
