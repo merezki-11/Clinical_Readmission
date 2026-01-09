@@ -1,14 +1,14 @@
-Patient Readmission Prevention System
+**Patient Readmission Prevention System**
 
- Project Overview
+ **Project Overview**
 
 This project is a Machine Learning solution designed to predict the likelihood of a patient being readmitted to the hospital within 30 days of discharge. By identifying high-risk patients early, healthcare providers can intervene with better post-discharge care plans.
 
 The project consists of a Jupyter Notebook (where the model was researched and built) and a Streamlit Web App (where the model is deployed for real-world use).
 
-File Structure
+**File Structure**
 
-wep_app.py: The interactive web dashboard built with Streamlit. This is the interface for doctors/nurses.
+web_app.py: The interactive web dashboard built with Streamlit. This is the interface for doctors/nurses.
 
 clinical_readmission.ipynb: The Jupyter Notebook containing the full Data Science pipeline: EDA, Preprocessing, Hyperparameter Tuning (GridSearch), and Model Training.
 
@@ -18,7 +18,7 @@ Clinical_Dataset.csv: The dataset used for training and testing.
 
 requirements.txt: List of dependencies required to run the project.
 
-Tech Stack
+**Tech Stack**
 
 Python (Core Logic)
 
@@ -30,7 +30,7 @@ Streamlit (Web Interface)
 
 Matplotlib & Seaborn (Visualization)
 
-How to Run Locally
+**How to Run Locally**
 
 1. Setup
 
@@ -55,7 +55,7 @@ To start the dashboard, run the following command in your terminal:
 streamlit run wep_app.py
 
 
-Model Performance
+**Model Performance**
 
 The model uses a Random Forest Classifier with class_weight='balanced' to handle the dataset imbalance.
 
@@ -63,8 +63,9 @@ Optimization Goal: High Recall (Sensitivity) to minimize missed high-risk cases.
 
 Key Predictors: Hemoglobin Level, Primary Diagnosis (Sepsis/Malaria), and Length of Stay.
 
-Future Improvements
+**Future Improvements**
 
 Integration with live hospital databases (SQL).
+
 
 Deployment to Streamlit Cloud.
